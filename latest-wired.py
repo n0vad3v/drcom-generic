@@ -11,26 +11,6 @@ import random
 import traceback
 
 # CONFIG
-server = "192.168.100.150"
-username = ""
-password = ""
-host_name = "LIYUANYUAN"
-host_os = "8089D"
-host_ip = "10.30.22.17"
-PRIMARY_DNS = "114.114.114.114"
-dhcp_server = "0.0.0.0"
-mac = 0xb888e3051680
-CONTROLCHECKSTATUS = '\x20'
-ADAPTERNUM = '\x01'
-KEEP_ALIVE_VERSION = '\xdc\x02'
-'''
-AUTH_VERSION:
-    unsigned char ClientVerInfoAndInternetMode;
-    unsigned char DogVersion;
-'''
-AUTH_VERSION = '\x0a\x00'
-IPDOG = '\x01'
-ror_version = False
 # CONFIG_END
 
 keep_alive1_mod = False #If you have trouble at KEEPALIVE1, turn this value to True
