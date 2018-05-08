@@ -11,6 +11,21 @@ import random
 import traceback
 
 # CONFIG
+server = '172.19.1.2'
+username='631701020304'#这里填写学号
+password='19980218'#这里填写密码
+CONTROLCHECKSTATUS = '\x20'
+ADAPTERNUM = '\x06'
+host_ip = '10.8.122.18'
+IPDOG = '\x01'
+host_name = 'X1Carbon'
+PRIMARY_DNS = '10.42.0.1'
+dhcp_server = '0.0.0.0'
+AUTH_VERSION = '\x0a\x00'
+mac = 0x2c56dc131fb6
+host_os = 'Fedora'
+KEEP_ALIVE_VERSION = '\xdc\x02'
+ror_version = False
 # CONFIG_END
 
 keep_alive1_mod = False #If you have trouble at KEEPALIVE1, turn this value to True
